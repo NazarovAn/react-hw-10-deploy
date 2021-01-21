@@ -1,0 +1,32 @@
+.add_item_form {
+  padding: .5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 300px;
+  margin: auto;
+}
+
+.form_select,
+.form_input {
+  padding: .3rem .6rem;
+  margin-bottom: 5px;
+}
+
+.form_submit_btn {
+  padding: .4rem .5rem;
+  float: right;
+}
+
+.file_input {
+  visibility: hidden;
+  position: absolute;
+  top: -1000px;
+}
+
+.image_preview {
+  width: 80%;
+  box-sizing: border-box;
+  padding: .3em .5em;
+  margin: auto;
+}
